@@ -1,0 +1,54 @@
+.countenar {
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #666666;
+    width: 50%;
+    position: absolute;
+    color: aliceblue;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+
+p{
+    opacity: 0;
+    transition: all 1s;
+    background: #666666;
+    position: relative;
+    display: block;
+    top: 0;
+    margin-bottom: 10px
+}
+
+.flat{
+    opacity: 1.25;
+    top: 15px;
+}
+
+
+#btn{
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    white-space: nowrap;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(153, 153, 3);
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    box-shadow: 5px 6px 23px red, -1px -1px 17px blue;
+}
+
+span {
+    font-size: 35px;
+}
